@@ -1,3 +1,7 @@
+body {
+    background-color: #faedcd;
+}
+
 /**************************************************/
 /*-------------GENERAL style ELEMENTS-------------*/
 /* HIDE ELEMENTS*/
@@ -9,4 +13,63 @@
     position: absolute;
     white-space: nowrap;
     width: 1px;
+}
+
+header>h2 {
+    text-align: center;
+    margin-top: 10em;
+}
+
+main>section:first-of-type {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main>section:first-of-type>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* card */
+main>section:first-of-type>div article {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    border-radius: 1em;
+    background: rgb(255, 150, 113);
+    background: linear-gradient(338deg, rgba(255, 150, 113, 1) 0%, rgba(255, 199, 95, 1) 35%, rgba(249, 248, 113, 1) 100%);
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+        rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    margin: 2em;
+
+    filter: grayscale(1);
+
+}
+
+main>section:first-of-type>div article:hover {
+    border: 2px solid rgb(255, 150, 113);
+    filter: grayscale(0);
+}
+
+figure {
+    border-radius: 1em;
+    padding: 5px;
+    width: 400px;
+    height: 200px;
+}
+
+figure>img {
+    width: 50%;
+    border-radius: 1em;
+
+}
+
+footer {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
 }
