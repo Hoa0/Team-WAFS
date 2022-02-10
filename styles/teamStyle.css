@@ -1,3 +1,11 @@
+/* CSS Document */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #faedcd;
 }
@@ -22,7 +30,6 @@ ul {
 /* title */
 header>h2 {
     text-align: center;
-    margin-top: 20%;
 }
 
 main>section:first-of-type {
@@ -33,14 +40,13 @@ main>section:first-of-type {
 }
 
 main>section:first-of-type>div {
-    display: flex;
-    justify-content: space-between;
+    display: block;
 }
 
 /* card */
 main>section:first-of-type>div article.card-profile {
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 150px;
     text-align: center;
     border-radius: 1em;
     background: rgb(255, 150, 113);
@@ -51,7 +57,6 @@ main>section:first-of-type>div article.card-profile {
     margin: 2em;
 
     filter: grayscale(1);
-
 }
 
 main>section:first-of-type>div article.card-profile:hover {
@@ -67,7 +72,7 @@ figure {
 }
 
 figure>img {
-    width: 50%;
+    width: 30%;
     border-radius: 1em;
 
 }
@@ -97,13 +102,30 @@ main>section:first-of-type>div article.card-profile:hover ul.text-profile {
     opacity: 1;
 }
 
-
-
-
-
 footer {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
     bottom: 0;
+}
+
+/*************************************************************/
+/*------------------------ MEDIA QUERY ----------------------*/
+/*------------------------ WEBSITE MODES --------------------*/
+@media (min-width:40em) {
+    main>section:first-of-type>div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* card */
+    main>section:first-of-type>div article.card-profile {
+        width: 500px;
+        height: 300px;
+    }
+
+    /*img*/
+    figure>img {
+        width: 50%;
+    }
 }

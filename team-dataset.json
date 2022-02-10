@@ -1,0 +1,66 @@
+[
+  {
+    "memberId": 22,
+    "memberType": "student",
+    "memberNickname": "",
+    "memberName": "Allyssa",
+    "memberPrefix": "",
+    "memberSurname": "Alimoestar",
+    "memberAvatar": "",
+    "memberGithubHandle": "",
+    "memberBio": "",
+    "memberUrl": "\r",
+    "squadId": 2,
+    "squadName": "Squad 1",
+    "squadDesription": "",
+    "squadAvatar": "",
+    "squadUrl": "",
+    "tribeId": 8,
+    "tribeName": "Minor Web Tribe 2022",
+    "tribeCohort": "2122",
+    "tribeDescription": "This is the tribe for the minor web design & development 2122",
+    "tribeAvatar": "https://avatars.githubusercontent.com/u/36165843?s=200&v=4",
+    "tribeUrl": "https://github.com/cmda-minor-web",
+    "teams": [
+      {
+        "teamId": 1,
+        "name": "Team 1",
+        "description": "",
+        "avatar": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "memberId": 52,
+    "memberType": "student",
+    "memberNickname": "",
+    "memberName": "Thuan Hoa",
+    "memberPrefix": "",
+    "memberSurname": "Le",
+    "memberAvatar": "",
+    "memberGithubHandle": "",
+    "memberBio": "",
+    "memberUrl": "\r",
+    "squadId": 3,
+    "squadName": "Squad 2",
+    "squadDesription": "",
+    "squadAvatar": "",
+    "squadUrl": "",
+    "tribeId": 8,
+    "tribeName": "Minor Web Tribe 2022",
+    "tribeCohort": "2122",
+    "tribeDescription": "This is the tribe for the minor web design & development 2122",
+    "tribeAvatar": "https://avatars.githubusercontent.com/u/36165843?s=200&v=4",
+    "tribeUrl": "https://github.com/cmda-minor-web",
+    "teams": [
+      {
+        "teamId": 1,
+        "name": "Team 1",
+        "description": "",
+        "avatar": "",
+        "url": ""
+      }
+    ]
+  }
+]
