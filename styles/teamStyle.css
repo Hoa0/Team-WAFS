@@ -44,6 +44,12 @@ main>section:first-of-type>div {
 }
 
 /* card */
+.card-profile {
+    border: 1px solid red;
+    border-radius: 1em;
+
+}
+
 main>section:first-of-type>div article.card-profile {
     width: 300px;
     height: 150px;
